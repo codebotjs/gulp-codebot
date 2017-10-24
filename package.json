@@ -1,6 +1,6 @@
 {
   "name": "gulp-codebot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp for CodebotJS",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/codebotjs/gulp-codebot/issues"
   },
-  "homepage": "https://github.com/codebotjs/gulp-codebot#readme"
+  "homepage": "https://github.com/codebotjs/gulp-codebot#readme",
+  "dependencies": {
+    "codebot": "0.0.9",
+    "gulp-util": "^3.0.8",
+    "object-assign": "^4.1.1",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }

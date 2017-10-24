@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= $this.title %></title>
+</head>
+<body>
+	<ul>
+	<%_ $this.target.route.forEach(function(route){ -%>
+		<li><a href="<%- route %>"></a></li>
+	<%_ }); -%>
+	</ul>
+</body>
+</html>

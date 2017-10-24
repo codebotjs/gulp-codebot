@@ -1,0 +1,13 @@
+{
+  "layer": {
+    "app": "./app",
+    "api": "./server"
+  },
+  "title": "My App",
+  "target": {
+  	"route": [
+  		"home",
+  		"about"
+  	]
+  }
+}
