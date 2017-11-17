@@ -1,6 +1,6 @@
 {
   "name": "gulp-codebot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gulp for CodebotJS",
   "main": "index.js",
   "scripts": {
