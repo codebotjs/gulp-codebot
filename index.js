@@ -48,7 +48,7 @@ module.exports = function (data, options, settings) {
 	  }
   	var model = JSON.parse(file.contents);
 	 	var copsDefaults = {
-	  	output: './',
+	  	output: options.output || './',
 	  	model: model,
 	  	writer: writer(this),
 	  	stdout: _stdout,
