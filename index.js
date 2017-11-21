@@ -28,8 +28,7 @@ module.exports = function (data, options, settings) {
 	var writer = function(collection){
 		return function(item, content){
 		  var nfile = new Vinyl({
-				base: '/',
-				path: '/' + item.fullname,
+				path: item.fullname,
 				contents: new Buffer(content)
 			});
 			collection.push(nfile);

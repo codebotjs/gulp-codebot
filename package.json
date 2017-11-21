@@ -1,6 +1,6 @@
 {
   "name": "gulp-codebot",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Gulp for CodebotJS",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/codebotjs/gulp-codebot#readme",
   "dependencies": {
-    "codebot": "^0.0.11",
+    "codebot": "0.0.12",
     "gulp-util": "^3.0.8",
     "object-assign": "^4.1.1",
     "through2": "^2.0.3",
